@@ -12,6 +12,8 @@ import Cursor from "../components/Cursor";
 
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
+import { useRouter } from 'next/router';
+const { basePath } = useRouter();
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -64,11 +66,12 @@ export default function Home() {
           handleAboutScroll={handleAboutScroll}
         />
 
+
         {/* ───────────── Taglines ───────────── */}
         <div className="flex flex-col laptop:flex-row items-center laptop:items-start mt-10 mb-10">
           <div className="flex-shrink-0 mb-4 laptop:mb-0 laptop:mr-8">
             <img
-              src="/images/profile.png"
+              src={`${basePath}/images/profile.png`} 
               alt="Abir Bahri profile portrait"
               className="w-32 h-32 rounded-full object-cover border-2 border-gray-300"
             />

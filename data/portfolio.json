@@ -41,7 +41,7 @@
       "id": "2",
       "title": "Traffic Light Optimization",
       "description": "Deep reinforcement learning project using DQN/DDQN and SUMO to optimize traffic light control.",
-      "imageSrc": "/images/poster04.png",
+      "imageSrc":  "/images/poster04.png",
       "url": "https://github.com/abirbh1/PCD_Traffic_Light_Control"
     },
     {
