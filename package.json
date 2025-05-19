@@ -1,8 +1,11 @@
 {
-  "name": "react-portfolio-template",
+  "name": "my-portfolio",
   "version": "3.0",
+  "homepage": "https://abirbh1.github.io/my-portfolio",
   "private": true,
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
