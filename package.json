@@ -4,12 +4,13 @@
   "homepage": "https://abirbh1.github.io/my-portfolio",
   "private": true,
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "main -d out",
     "dev": "next dev",
     "build": "next build",
+    "export": "next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@headlessui/react": "^1.6.6",
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "eslint": "8.15.0",
-    "eslint-config-next": "12.1.6"
+    "eslint-config-next": "12.1.6",
+    "gh-pages": "^6.3.0"
   }
 }
