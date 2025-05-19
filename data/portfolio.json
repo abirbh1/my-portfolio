@@ -1,0 +1,130 @@
+{
+  "aboutpara": "I am a PhD student at Université Laval, specializing in operations and decision systems with a focus on auction-based procurement in truckload transportation. With a background in computer science and intelligent systems, I apply artificial intelligence and optimization to address real-world logistics challenges. I am currently part of the CIRRELT research center, where I contribute to applied research in smart transportation and operational efficiency.",
+  "headerTaglineOne": "Hello 🐞 ",
+  "headerTaglineTwo": "I'm Abir Bahri",
+  "headerTaglineThree": "PhD Student in AI & Optimization",
+  "headerTaglineFour": "Computer Science Engineer",
+  "headerTaglineFive": "AI, Logistics & Decision Systems",
+  "headerTaglineSix": "CIRRELT Research Center",
+  "headerTaglineSeven": "Université Laval",
+  "headerTaglineEight": "Quebec, Canada",
+  "showCursor": true,
+  "showBlog": true,
+  "darkMode": true,
+  "showResume": true,
+  "socials": [
+    {
+      "id": "1",
+      "title": "GitHub",
+      "link": "https://github.com/abirbh1"
+    },
+    {
+      "id": "2",
+      "title": "LinkedIn",
+      "link": "https://www.linkedin.com/in/abir-bahri-/"
+    },
+    {
+      "id": "5",
+      "title": "Email",
+      "link": "mailto:abir.bahri.1@ulaval.ca"
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "title": "Food Recommendation System",
+      "description": "AI-based system to predict customer behavior and recommend meals based on user preferences (Private Mitacs project).",
+      "imageSrc": "https://static.wixstatic.com/media/c5bf85_20b94e2755404a43875bc96c19605b15~mv2.jpg/v1/fill/w_1458,h_1458,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/c5bf85_20b94e2755404a43875bc96c19605b15~mv2.jpg",
+      "url": "https://www.chefjasper.com"
+    },
+    {
+      "id": "2",
+      "title": "Traffic Light Optimization",
+      "description": "Deep reinforcement learning project using DQN/DDQN and SUMO to optimize traffic light control.",
+      "imageSrc": "/images/poster04.png",
+      "url": "https://github.com/abirbh1/PCD_Traffic_Light_Control"
+    },
+    {
+      "id": "3",
+      "title": "E-Hospital Management System",
+      "description": "A full-stack web platform developed during the pandemic for managing hospital care, including appointments and records.",
+      "imageSrc": "/images/image.png",
+      "url": "https://github.com/abirbh1/ehospital"
+    },
+    {
+      "id": "4",
+      "title": "Archery Mixed-Reality Game",
+      "description": "An immersive mixed-reality archery training game developed during a research internship. Includes a virtual coach and multiplayer support. (Private project)",
+      "imageSrc": "/images/archery.png"
+    }
+  ],
+  "services": [
+    {
+      "id": "1",
+      "title": "AI & Optimization Research",
+      "description": "I build intelligent systems and optimization models for logistics and transportation, bridging AI and operations research."
+    },
+    {
+      "id": "2",
+      "title": "Data Science & Modeling",
+      "description": "I develop predictive models and analyze structured and unstructured data for smarter decision-making."
+    },
+    {
+      "id": "3",
+      "title": "Scientific & Technical Writing",
+      "description": "I write academic papers and technical reports, ensuring clarity, rigor, and accessibility in research dissemination."
+    }
+  ],
+  "resume": {
+    "tagline": "🎓 PhD Student in Operations & Decision Systems",
+    "description": "Combining AI and optimization to solve complex problems in transportation and logistics.",
+    "experiences": [
+      {
+        "id": "1",
+        "dates": "2024 – Present",
+        "type": "PhD Research",
+        "position": "PhD Student at Université Laval (CIRRELT)",
+        "bullets": "Research on auction-based procurement models; Development of optimization tools for truckload transport; Collaboration within interdisciplinary teams."
+      },
+      {
+        "id": "2",
+        "dates": "Oct 2023 – Aug 2024",
+        "type": "Software Engineering",
+        "position": "Software Engineer at Primatec Engineering (Tunisia)",
+        "bullets": "Developed automotive software; Analyzed network traffic using Wireshark; Performed protocol testing (CAN, DoIP, XCP)."
+      },
+      {
+        "id": "3",
+        "dates": "Mar – Aug 2023",
+        "type": "Mitacs Internship",
+        "position": "AI Research Intern at UQAT",
+        "bullets": "Built a food recommendation system using AI; Conducted behavioral analysis of purchasing patterns."
+      },
+      {
+        "id": "4",
+        "dates": "Jul – Aug 2022",
+        "type": "Internship",
+        "position": "AI Intern at TALAN (Tunisia)",
+        "bullets": "Developed an archery game in mixed reality; Designed a virtual coach using AI."
+      },
+      {
+        "id": "5",
+        "dates": "Jul 2022 – Present",
+        "type": "Freelance",
+        "position": "Freelance Data Scientist",
+        "bullets": "Projects on Upwork/ComeUp: Exploratory analysis, model design, and delivery of AI-based insights."
+      }
+    ],
+    "education": {
+      "universityName": "Université Laval – FSA (CIRRELT)",
+      "universityDate": "2024 – Present",
+      "universityPara": "PhD in Administration Sciences, focusing on operations and decision systems, with applications in logistics and transportation auctions."
+    },
+    "languages": ["Python", "C/C++", "Java", "SQL", "Bash"],
+    "frameworks": ["PyTorch", "TensorFlow", "Scikit-learn", "CPLEX/Docplex"],
+    "others": ["LaTeX", "Git", "Docker", "Jupyter", "Google Cloud", "Simul8"]
+  },
+  "header": {
+    "content": "<div className={`mt-10 hidden flex-row items-center justify-between sticky top-0 z-10 tablet:flex bg-white dark:text-white`}>{/* ...header content... */}</div>"
+  }
+}
