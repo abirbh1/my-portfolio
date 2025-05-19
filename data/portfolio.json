@@ -41,21 +41,21 @@
       "id": "2",
       "title": "Traffic Light Optimization",
       "description": "Deep reinforcement learning project using DQN/DDQN and SUMO to optimize traffic light control.",
-      "imageSrc":  "/images/poster04.png",
+      "imageSrc":  "/my-portfolio/images/poster04.png",
       "url": "https://github.com/abirbh1/PCD_Traffic_Light_Control"
     },
     {
       "id": "3",
       "title": "E-Hospital Management System",
       "description": "A full-stack web platform developed during the pandemic for managing hospital care, including appointments and records.",
-      "imageSrc": "/images/image.png",
+      "imageSrc": "/my-portfolio/images/image.png",
       "url": "https://github.com/abirbh1/ehospital"
     },
     {
       "id": "4",
       "title": "Archery Mixed-Reality Game",
       "description": "An immersive mixed-reality archery training game developed during a research internship. Includes a virtual coach and multiplayer support. (Private project)",
-      "imageSrc": "/images/archery.png"
+      "imageSrc": "/my-portfolio/images/archery.png"
     }
   ],
   "services": [

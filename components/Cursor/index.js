@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import 'custom-cursor-react/dist/index.css';
 import CustomCursor from "custom-cursor-react";
 import "custom-cursor-react/dist/index.css";
 import { useTheme } from "next-themes";

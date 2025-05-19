@@ -9,11 +9,11 @@ import WorkCard from "../components/WorkCard";
 import Footer from "../components/Footer";
 import Button from "../components/Button";
 import Cursor from "../components/Cursor";
+import { useRouter } from 'next/router';
+import { useTheme } from 'next-themes';
 
 import { useIsomorphicLayoutEffect } from "../utils";
 import { stagger } from "../animations";
-import { useRouter } from 'next/router';
-const { basePath } = useRouter();
 
 // Local Data
 import data from "../data/portfolio.json";
@@ -28,6 +28,8 @@ export default function Home() {
   const textTwo   = useRef(null);
   const textThree = useRef(null);
   const textFour  = useRef(null);
+  const { basePath } = useRouter();  
+  const avatarSrc = `${basePath}/images/profile.png`;
 
   /* ──────────────────── handlers ──────────────────── */
   const handleWorkScroll = () =>
@@ -66,12 +68,11 @@ export default function Home() {
           handleAboutScroll={handleAboutScroll}
         />
 
-
         {/* ───────────── Taglines ───────────── */}
         <div className="flex flex-col laptop:flex-row items-center laptop:items-start mt-10 mb-10">
           <div className="flex-shrink-0 mb-4 laptop:mb-0 laptop:mr-8">
             <img
-              src={`${basePath}/images/profile.png`} 
+              src={avatarSrc}
               alt="Abir Bahri profile portrait"
               className="w-32 h-32 rounded-full object-cover border-2 border-gray-300"
             />
